@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pydocs-pro"
+version = "0.0.1"
+description = "Material de apoio para o canal pydocs pro"
+authors = ["Henrique Branco <henrique.ajnbranco@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pydocs_pro"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.4.2"
+pymdown-extensions = "^9.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
